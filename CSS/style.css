@@ -1,0 +1,122 @@
+/*------------------GLOBAL STYLES*-----------------------*/
+
+html, body {
+    height:100%;
+}
+
+body {
+    background-color:#fff;
+    margin:0px;
+    padding:0px;
+    font-family:'trebuchet MS', Verdana, sans-serif;
+    font-size: 16px;
+    font-weight:500;
+    color:#000000;
+}
+
+h1, h2, h3 {
+    margin:0px;
+    padding:0px;
+    color:#8DC63F;
+}
+h1 {
+    font-size: 3.25em;
+}
+
+p {
+    color: #838383;
+    margin: 15px;
+    line-height: 20px;
+}
+
+a {
+    color:#FF9900;
+    text-decoration: none;
+}
+
+a:hover  {
+    color:#00ff89;
+}
+
+
+
+
+/*----------HEADER STYLES-------------*/
+
+header {
+    height: 100px;
+    background-color: #f4f4f4;
+}
+
+#logo {
+    color:#00ff89;
+}
+
+#logo:hover {
+    color: #FF9900;
+}
+
+nav {
+    text-decoration:none;
+    padding:0px 0px 0px 0px;
+    float: right;
+    width: 50%;
+    position: absolute;
+    top: 63%;
+    right:20%;
+}
+/*----------BANNER STYLES-------------*/
+
+
+#banner {
+    overflow: hidden;
+    padding: 175px 0px;
+    border-top: 6px solid #FF7900;
+    background-color: #AEAEAE;
+    background: url(../Images/banner-home.jpg) no-repeat center center #FF7900;
+    background-size: cover;
+}
+
+#bannerText {
+    color:#ffffff;
+    text-size: 6em;
+    text-align: center;
+    text-shadow: 6px 6px #000000;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    padding:20px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #000000;
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+li a:hover {
+    color:#000;
+    background-color: #fff;
+}
+
+
+
+/*-------------BUTTON STYLES--------------*/
+
+.columnButtons {
+    padding: 10px;
+    background-color: #0000ff;
+    text-decoration: none;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.columnButtons:hover {
+    color: #000000;
+    background-color: #ff0000;
+}

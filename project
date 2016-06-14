@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>my final project</title>
+</head>
+
+    <body>
+        <header></header>
+        <main>
+            <section>
+!-- FIRST COLUMN STARTS HERE-->
+    <article>
+        <h2></h2>
+        <img />
+        <span></span>
+        <p></p>
+        <a></a>
+    </article>
+</section>
+
+            <section>
+    <!--THIS IS THE ABOUT ME SECTION-->
+    <aside></aside>
+    <article>
+        <h2></h2>
+        <p></p>
+        <a></a>
+    </article>
+    <!--THIS IS THE ABOUT ME SECTION-->
+</section>
+
+        </main>
+        <footer>
+            <div>
+                <a href="#" title="" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="#" title="" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="#" title="" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="#" title="" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="#" title="" target="_blank"><i class="fa fa-github"></i></a>
+            </div>
+            <p>&copy; 2016, Zachary Beal. All rights reserved. | site by: <a href="https://www.linkedin.com/profile/guided?trk=uno-choose-ge-no-intent&dl=no" title="Zachary Beal Linkedin" target="_blank">Zac Beal</a></p>
+        </footer>
+    </body>
+</html>
