@@ -9,25 +9,31 @@
   <meta name="description" content="welcome to Zac Beals website all about everything cool, dragonball z, star wars, legend of zelda, and so much more" />
   <meta name="keywords" content="zelda, starwars, dragonball, miss fresno county, zachary beal, video games, star wars, dragonball z, legend of zelda, zac beal fresno" />
   
-  <link rel="stylesheet" href="CSS/style.css" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome.css" type="text/css" />
+  
+  
+  <!--<link href='https://fonts.googleapis.com/css?family=Permanent+Marker|Aldrich|Audiowide' rel='stylesheet' type='text/css'>-->
 </head>
 
 <body>
   <header>
     <!--<a href="index.html" title="Home Page"><img src="#" alt="" title="" /></a>-->
     
-    <!--<h1><a id="logo" href="index.html" title="logo">Mr. Zac Beal</a></h1>-->
-
+    <h1><a id="logo" href="index.html" title="logo">Mr. Zac Beal</a></h1>
+    <div id="banner">
+      <h1 id="bannerText">GEEKWISE HTML/CSS 2016!</h1>
+      <a href="http://geekwiseacademy.com/" title="geekwise school" target="_blank" id="CTA">GeekWise Academy</a>
+    </div>
+   
     <nav id="menu">
       <ul>
-        <li class="currentPage"><a href="index.html" title="home page">Home</a></li>
+        <li ><a href="index.html" title="home page" class="currentPage">Home</a></li>
         <li><a href="about.html" title="About Me">About Me</a></li>
         <li><a href="contact.html" title="Contact Page">Contact Me</a></li>
       </ul>
     </nav> 
-    <div id="banner">
-    <h1 id="bannerText">WEBSITE!</h1>
-  </div>
+    
   </header>
  
   <main>
@@ -36,9 +42,9 @@
       <!-- FIRST COLUMN STARTS HERE-->
       <article class="column1">
         <h2>Star Wars</h2>
-        <a href="http://www.starwars.com/" title="starwars.com" target="_blank"><img src="Images/SW-column1.jpg" alt="tie fighter gif" title="Star Wars" /></a>
+        <a href="http://www.starwars.com/" title="starwars.com" target="_blank"><img src="images/SW-column1.jpg" alt="tie fighter gif" title="Star Wars" /></a>
         <span>A long time ago...</span>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat repudiandae sit quos animi similique. Odit, sapiente fugit explicabo sed eligendi.</p>
+        <p>In a galaxy far, far away.. a power struggle for the entire universe was taking place. An epic tale of good vs evil, light vs dark. The mysterious force that surrounds us all, capable of great good, or terrible evil leads our young hero towards his destiny of saving the universe. </p>
         <a href="http://www.starwars.com/" title="StarWars.com" target="_blank" class="columnButtons">Use The Force</a> <!--paypal.me or cash.me-->
       </article>
       <!--FIRST ARTICLE ENDS HERE-->
@@ -46,9 +52,9 @@
       <!-- SECOND COLUMN STARTS HERE-->
       <article class="column2">
         <h2>The Legend of Zelda</h2>
-        <a href="http://www.zelda.com/" title="legendofzelda.com" target="_blank"><img src="Images/LOZ-column1.jpg" alt="Legend of Zelda" title="Zelda's 25th Anniversary" /></a>
+        <a href="http://www.zelda.com/" title="legendofzelda.com" target="_blank"><img src="images/LOZ-column1.jpg" alt="Legend of Zelda" title="Zelda's 25th Anniversary" /></a>
         <span>Its Dangerous to Go Alone</span>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat repudiandae sit quos animi similique. Odit, sapiente fugit explicabo sed eligendi.</p>
+        <p>The legend of the Triforce, Power, Wisdom, Courage. A young boy begins an adventure of epic porportions. He must save princess Zelda, from the king of the bandits, the great and powerful Ganondorf. Will he be able to survive the horrors that the evil ganondorf has set ahead of him? will he be able to find the legendary Master Sword? Will he rescue the Princess and save the day?</p>
         <a href="http://www.zelda.com/" title="legendofZelda.com" target="_blank" class="columnButtons">HEY! LISTEN!</a> <!--paypal.me or cash.me-->
       </article>
       <!--SECOND ARTICLE ENDS HERE-->
@@ -56,9 +62,9 @@
       <!-- THIRD COLUMN STARTS HERE-->
       <article class="column3">
         <h2>Dragonball Z</h2>
-        <a href="http://www.dragonballz.com/" title="Dragonballz.com" target="_blank"><img src="Images/DBZ-column.jpg" alt="the Z Fighters" title="dragonballz.com" /></a>
+        <a href="http://www.dragonballz.com/" title="Dragonballz.com" target="_blank"><img src="images/DBZ-column.jpg" alt="the Z Fighters" title="dragonballz.com" /></a>
         <span>The Z Fighters</span>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat repudiandae sit quos animi similique. Odit, sapiente fugit explicabo sed eligendi.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaesrat repudiandae sit quos animi similique. Odit, sapiente fugit explicabo sed eligendi.</p>
         <a href="http://www.dragonballz.com/" title="Dragonballz" target="_blank" class="columnButtons">KA-ME-HA-ME-HA</a> <!--paypal.me or cash.me-->
       </article>
       <!--THIRD ARTICLE ENDS HERE-->    
@@ -68,26 +74,28 @@
       <!--THIS IS THE ABOUT ME SECTION-->
       <aside class="leftAside">
           <figure>
-              <img src="Images/zac2.jpg" alt="" title="" />
-              <figcaption>zac and miss fresno girlfriend</figcaption>
+              <img src="images/zac2.jpg" alt="" title="" />
+              <figcaption>Zac Beal</figcaption>
           </figure>
       </aside>
       <article class="aboutMe">
         <h2>So You Want to Know About Me?</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, eum, quasi culpa id eos molestiae cum. Perferendis, atque fuga optio iure sapiente rerum eaque! Recusandae.</p>
-        <a href="about.html" title="About Me Page">Would you like to know more?</a>
+        <p><mark>Lorem ipsum</mark> dolor sit amet, consectetur adipisicing elit. Quibusdam, eum, quasi culpa id eos molestiae cum. Perferendis, atque fuga optio iure sapiente rerum eaque! Recusandae.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, quae, nesciunt, asperiores, ut culpa impedit eius facilis veritatis incidunt distinctio quos ducimus ea <span>eligendi voluptas maxime</span> nam dolorem placeat! Repudiandae, nesciunt hic possimus quia voluptatibus? Rem, magni, exercitationem, velit reprehenderit ipsum laboriosam quis at itaque aliquid modi quia placeat consequatur!</p>
+        <p>Lorem <b><i>ipsum</i></b> dolor sit amet, consectetur adipisicing elit. Perferendis, <strong>ad</strong>, quibusdam, modi, fugit nihil eos cupiditate facere optio deleniti commodi incidunt enim harum tempore voluptates sint quasi nisi nam odio eligendi provident at minus hic officiis? Labore, fugit debitis quibusdam ut nisi quis sit nihil praesentium atque ullam culpa eum.</p>
+        <a class="meButton" href="about.html" title="About Me Page">Would you like to know more?</a>
       </article>
       <!--THIS IS THE ABOUT ME SECTION-->
     </section>
 
   </main>
   <footer>
-    <div>
-      <a href="#" title="" target="_blank"><i class="fa fa-facebook"></i></a>
+    <div class="social">
+      <a href="https://www.facebook.com/zac.beal.7?ref=bookmarks" title="" target="_blank"><i class="fa fa-facebook"></i></a>
       <a href="#" title="" target="_blank"><i class="fa fa-twitter"></i></a>
       <a href="#" title="" target="_blank"><i class="fa fa-instagram"></i></a>
-      <a href="#" title="" target="_blank"><i class="fa fa-linkedin"></i></a>
-      <a href="#" title="" target="_blank"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/zachary-beal-055213120?trk=hp-identity-name" title="" target="_blank"><i class="fa fa-linkedin"></i></a>
+      <a href="https://github.com/" title="" target="_blank"><i class="fa fa-github"></i></a>
     </div>
     <p>&copy; 2016, Zachary Beal. All rights reserved. | site by: <a href="https://www.linkedin.com/profile/guided?trk=uno-choose-ge-no-intent&dl=no" title="Zachary Beal Linkedin" target="_blank">Zac Beal</a></p>
   </footer>
